@@ -1,0 +1,213 @@
+.companias-fondo{
+    width: 100%;
+    height: 100vh;
+}
+
+.dscription-companias{
+    padding: 1rem;
+}
+
+.companias-tittle{
+    position: relative;
+}
+
+.dscription-companias{
+    position: absolute;
+    top: 40%;
+}
+
+.productos-tittle-description{
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.sub-description-tittle-compania{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.description-productos{
+    color: black;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 25px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.title-productos{
+    color: var(--rosa);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.all-companias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 2rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 300px;
+    justify-content: center;
+    padding: 2rem 2rem;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
+    height: 40%;
+}
+
+.card-img{
+    width: 190px;
+}
+
+
+.btns-seguros{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.btns-seguros i{
+    font-size: 1.5rem;
+    border-radius: 20px;
+
+}
+
+
+
+.btns-seguros .fa-solid:hover{
+    transition: .2s linear;
+    font-size: 3rem;
+    color: rgb(184, 43, 125);
+}
+
+.btn-seguro{
+    border: none;
+    background:none;
+}
+
+.a, .b, .c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.slideA{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: righ; */
+    list-style: none;
+    gap: 10px;
+    margin: 2px;
+}
+
+.span{
+    margin-top: 0px;
+    width: 50%;
+    background-color: black;
+    height: 3px;
+    /* border: 1px solid red; */
+    animation: translateA 5s linear infinite;
+    /* animation: ; */
+}
+
+.seguros-hogar{
+    display: flex;
+    flex-direction: column;
+    align-items: left;    
+    padding: 2rem;
+    text-transform: uppercase;
+    
+}
+li{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.displayNone{
+    display: none;
+}
+
+.displayBlock{
+    display: block;
+}
+
+.seguros-hogar p{
+    margin-top: 0rem;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.seguros-hogar h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btn1{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 200px;
+    color: white;
+
+}
+#btn2{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 200px;
+    color: white;
+
+}
+#btn3{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 200px;
+    color: white;
+
+}
+
+
+.seguros{
+    background-color: var(--negro);
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.queBuscas{
+    margin-bottom: 6rem;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--rosa);
+
+}
+
+#btn1, #btn2, #btn3{
+    border: 2px solid var(--rosa);
+    border-radius: 50%;
+    padding: .5rem 0rem;
+    font-size: 20px;
+}
